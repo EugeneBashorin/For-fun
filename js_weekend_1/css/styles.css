@@ -1,0 +1,23 @@
+html,body{
+	margin:0;
+}
+.items,.items_2,.items_3,.items_4{
+	display:flex;
+	flex-wrap:wrap;
+}
+.items .item,.items_2 .item_2,.items_3 .item_3,.items_4 .item_4{
+	width:150px;
+	height:150px;
+	text-align: center;
+	background:#eee;
+	margin:10px;
+	padding:10px;
+	border:3px solid transparent;
+	transition: border-color 0.5s;
+}
+.items .item-active,.items_2 .item_2-active,.items_3 .item_3-active{
+	border: 3px solid #f90;
+}
+.items_4 .item_4:hover{
+	border: 3px solid #f90;
+}
